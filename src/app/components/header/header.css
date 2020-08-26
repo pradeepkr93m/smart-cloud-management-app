@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  background: #0079af;
+  color: white;
+  padding: 12px 20px;
+}
+.logo-img {
+  height: 3rem;
+  width: 3rem;
+}
+.header-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.header-title:hover {
+  cursor: pointer;
+}
+.options {
+  margin-left: 50px;
+  padding-top: 4px;
+}
+.options span {
+  font-size: 16px;
+  padding: 6px 26px;
+  margin: 2px;
+  border-radius: 1vw;
+  color: white;
+  font-size: 600;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+.options span:hover,
+.logout:hover {
+  cursor: pointer;
+  background: white;
+  color: #0079af;
+}
+.right-menu {
+  float: right;
+  font-size: 16px !important;
+  padding-top: 4px;
+  margin-left: 42vw;
+}
+.right-menu span {
+  padding: 6px 12px;
+}
+.logout {
+  border-radius: 1vw;
+  font-weight: 500;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+.loggedInUser {
+  padding: 10px;
+  border-radius: 1vw;
+}

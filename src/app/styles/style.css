@@ -1,0 +1,80 @@
+.modalDiv {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  border-radius: 4px;
+  outline: none;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+#successMessage {
+  color: green;
+}
+#errorMessage {
+  color: red;
+}
+.grey-text {
+  color: grey;
+}
+.add-device .modal-dialog {
+  width: 500px;
+}
+.add-device .model-content {
+  height: auto;
+}
+.add-device-modal-body {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  width: 500px;
+}
+.add-device-title {
+  color: #0079af;
+  margin-top: 10px !important;
+  margin-bottom: 16px !important;
+}
+.delete-popup .modal-dialog {
+  width: 470px;
+}
+.delete-popup .modal-content {
+  height: auto;
+}
+.delete-popup-model-body {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  width: 470px;
+}
+.delete-popup-text {
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  margin: 12px 0px 18px 0px;
+}
+
+.add-service,
+.add-service-user {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+.add-service:hover {
+  cursor: pointer;
+  color: white;
+  background: #0079af;
+}
+.no-service-msg {
+  display: inline-block;
+  padding: 20px 0px;
+}

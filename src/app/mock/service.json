@@ -1,0 +1,39 @@
+[
+  {
+    "Henry Ford": [
+      { "username": "AWS Service", "location": "Active", "version": "1.2" },
+      { "username": "Azure Service", "location": "Active", "version": "2.0" }
+    ]
+  },
+  {
+    "James Smith": [
+      { "username": "AWS Service", "location": "Active", "version": "1.0" },
+      { "username": "Azure Service", "location": "Inactive", "version": "2.2" },
+      {
+        "username": "SoftLayer Service",
+        "location": "Active",
+        "version": "1.5"
+      }
+    ]
+  },
+  {
+    "Michael Smith": [
+      { "username": "Azure Service", "location": "Inactive", "version": "2.5" }
+    ]
+  },
+  {
+    "Robert Smith": [
+      {
+        "username": "SoftLayer Service",
+        "location": "Active",
+        "version": "3.0"
+      }
+    ]
+  },
+  {
+    "David Smith": [
+      { "username": "AWS Service", "location": "Inactive", "version": "2.0" },
+      { "username": "Azure Service", "location": "Active", "version": "1.5" }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+.left-align {
+  padding: 0px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 10vh;
+  background: linear-gradient(rgb(0, 0, 0), #fff);
+}
+.logo-image {
+  width: auto;
+  height: 100vh;
+}
+.heading {
+  color: darkgray;
+  width: inherit;
+  padding-left: 20px;
+}
+.form-tab {
+  padding-top: 20vh;
+  width: 36vw;
+}
+.login-form {
+  font-size: 202px 15px;
+}
+.login-field-size {
+  font-size: 22px;
+}
+.login-label,
+.error-message {
+  color: white !important;
+}
+.btn-block {
+  font-size: 1.8rem;
+}

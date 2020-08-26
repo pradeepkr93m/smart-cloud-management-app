@@ -1,0 +1,49 @@
+.services-wrapper {
+  height: 40vw;
+}
+.service-body {
+  padding: 10px;
+}
+.service-header {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 15px 0px 0px 44px;
+}
+.service-options {
+  padding: 20px 0px 12px 78px;
+}
+.service-options span {
+  padding: 12px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+.filter {
+  margin-left: 40vw;
+}
+.filter-by {
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #252228;
+  padding: 5px;
+}
+.user-role {
+  padding-left: 61vw;
+  font-size: small;
+}
+.option {
+  border-radius: 2px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+.option:hover {
+  cursor: pointer;
+  color: white;
+  background: #0079af;
+}
+#editDevice {
+  text-overflow: ellipsis;
+}
+#editDevice:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
